@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain import PromptTemplate
-from langchain.llms import OpenAI
+from langchain_openai import OpenAI
 from langchain.chains.summarize import load_summarize_chain
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import pandas as pd
